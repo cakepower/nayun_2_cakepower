@@ -61,8 +61,11 @@ basic.forever(function () {
             orange()
         }
         if (mode == 1 && touch_sensor2 > 180) {
-            cold()
             light2 = 2
+            if (touch_sensor1 > 180) {
+                light2 = 1
+            }
+            cold()
         }
     } else if (mode == 2 && pressure_sensor < 700) {
         off()
