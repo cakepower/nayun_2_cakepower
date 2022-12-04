@@ -1,5 +1,6 @@
 {
     "name": "nayun_2_cakepower",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
